@@ -4,17 +4,6 @@
         <remote  name="dlwlrma123"
                 fetch="https://github.com/dlwlrma123" />
         
-        <remove-project name="device_custom_sepolicy" />
-        <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="dlwlrma123" revision="R" clone-depth="1" />
-        <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="dlwlrma123" revision="R" clone-depth="1" />
-        <remove-project name="vendor_aosp" />
-        <project path="vendor/aosp" name="Arcane_vendor" remote="dlwlrma123" revision="R" clone-depth="1" />
-        <remove-project name="packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="Arcane_packages_apps_Settings" remote="dlwlrma123" revision="R" clone-depth="1" />
-        <remove-project name="platform/packages/apps/ThemePicker" />
-        <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="dlwlrma123" revision="R" clone-depth="1" />
-        <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="Arcane_frameworks_base" remote="dlwlrma123" revision="R" clone-depth="1" />
         <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="dlwlrma123" revision="main" clone-depth="1" />
         <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="dlwlrma123" revision="main" clone-depth="1" />
         <project path="kernel/xiaomi/surya" name="Optimus_Drunk_Surya" remote="dlwlrma123" revision="test" clone-depth="1" />
