@@ -13,6 +13,7 @@
         <project path="packages/apps/Settings" name="Arcane_packages_apps_Settings" remote="dlwlrma123" revision="R" clone-depth="1" />
         <remove-project name="platform/packages/apps/ThemePicker" />
         <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="dlwlrma123" revision="R" clone-depth="1" />
+        <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="dlwlrma123" revision="R" clone-depth="1" />
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="Arcane_frameworks_base" remote="dlwlrma123" revision="R" clone-depth="1" />
         <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="dlwlrma123" revision="main" clone-depth="1" />
