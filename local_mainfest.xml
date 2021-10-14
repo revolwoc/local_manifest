@@ -4,12 +4,15 @@
         <remote  name="sakhiofsakshi"
                 fetch="https://github.com/sakhiofsakshi" />
         
-        <remote  name="TonyJoaca"
-                fetch="https://gitlab.com/TonyJoaca" />
+        <remote  name="SukeeratSG"
+                fetch="https://gitlab.com/Irongfly" />
         
-        <project path="device/xiaomi/alioth" name="device_xiaomi_alioth-1" remote="sakhiofsakshi" revision="OctaviOS" clone-depth="1" />
-        <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common-1" remote="sakhiofsakshi" revision="OctaviOS" clone-depth="1" />
-        <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="TonyJoaca" revision="OctaviOS" clone-depth="1" />
-        <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="sakhiofsakshi" revision="OctaviOS" clone-depth="1" />
-        <project path="kernel/xiaomi/alioth" name="Optimus_Drunk_Alioth" remote="sakhiofsakshi" revision="11.0" clone-depth="1" />
+        <remote  name="SukeeratSG"
+                fetch="https://github.com/SukeeratSG" />
+        
+        <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="sakhiofsakshi" revision="havoc" clone-depth="1" />
+        <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="SukeeratSG" revision="11-last" clone-depth="1" />
+        <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="Irongfly" revision="havoc" clone-depth="1" />
+        <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="SukeeratSG" revision="havoc" clone-depth="1" />
+        <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_alioth" remote="SukeeratSG" revision="havoc" clone-depth="1" />
 </manifest>
