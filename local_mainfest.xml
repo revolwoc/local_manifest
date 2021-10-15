@@ -18,4 +18,6 @@
         
         <remove-project name="hardware/qcom-caf/sm8250/display"/>
         <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="SukeeratSG" revision="havoc" />
+        
+        <remove-project name="vendor/cherish/build/tools/roomservice.py"/>
 </manifest>
