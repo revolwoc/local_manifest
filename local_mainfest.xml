@@ -4,7 +4,7 @@
         <remote  name="sakhiofsakshi"
                 fetch="https://github.com/sakhiofsakshi" />
         
-        <remote  name="SukeeratSG"
+        <remote  name="Irongfly"
                 fetch="https://gitlab.com/Irongfly" />
         
         <remote  name="SukeeratSG"
@@ -15,4 +15,7 @@
         <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="Irongfly" revision="havoc" clone-depth="1" />
         <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="SukeeratSG" revision="havoc" clone-depth="1" />
         <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_alioth" remote="SukeeratSG" revision="havoc" clone-depth="1" />
+        
+        <remove-project name="hardware/qcom-caf/sm8250/display"/>
+        <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="SukeeratSG" revision="havoc" />
 </manifest>
