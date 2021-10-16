@@ -23,4 +23,7 @@
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-18.1" />
         
         <remove-project name="vendor/cherish/build/tools/roomservice.py"/>
+        <remove-project name="android_device_cherish_sepolicy"/>
+        <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="sakhiofsakshi" revision="eleven" />
+        
 </manifest>
