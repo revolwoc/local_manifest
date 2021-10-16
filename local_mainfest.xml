@@ -10,14 +10,17 @@
         <remote  name="SukeeratSG"
                 fetch="https://github.com/SukeeratSG" />
         
+        <remote  name="LineageOS"
+                fetch="https://github.com/LineageOS" />
+        
         <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="sakhiofsakshi" revision="havoc" clone-depth="1" />
         <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="SukeeratSG" revision="11-last" clone-depth="1" />
         <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="Irongfly" revision="havoc" clone-depth="1" />
         <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="SukeeratSG" revision="havoc" clone-depth="1" />
         <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_alioth" remote="SukeeratSG" revision="havoc" clone-depth="1" />
         
-        <remove-project name="hardware/qcom-caf/sm8250/display"/>
         <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="SukeeratSG" revision="havoc" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-18.1" />
         
         <remove-project name="vendor/cherish/build/tools/roomservice.py"/>
 </manifest>
